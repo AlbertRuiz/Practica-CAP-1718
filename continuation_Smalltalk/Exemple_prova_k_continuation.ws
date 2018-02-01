@@ -1,0 +1,1 @@
+| continuacio k |continuacio := [  | cont |  cont := Continuation continuation.  cont ]. k := continuacio value.( k class = Continuation )	ifTrue: [    		Transcript show: 'k és una continuació'; cr.    		k value: 1. ]	ifFalse: [    		Transcript show: 'k ara és un '; cr.    		Transcript show: k class; cr.	].Transcript cr.Transcript show: k; cr.

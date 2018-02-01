@@ -1,0 +1,1 @@
+'From Pharo3.0 of 18 March 2013 [Latest update: #30864] on 30 January 2018 at 9:03:43.61489 pm'!!Continuation methodsFor: 'as yet unclassified' stamp: 'AlbertRuiz 1/30/2018 20:50'!continuation	^Continuation fromContext: thisContext sender sender.! !
